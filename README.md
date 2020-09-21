@@ -12,7 +12,7 @@ Term: Fall 2020
 + Projec title: Why Did President Barak Obama Win Again If His Approval Ratings Were Declining?
 + This project is conducted by Sneha Swati
 
-+ Project summary: This project focuses on the why behind  bama's win the 2012 elections when signs pointed towards him loosing the election. His approval ratings during his second run went as low as 40%.
++ Project summary: This project focuses on the why behind Obama's win the 2012 elections when signs pointed towards him losing the election. His approval ratings during his second run went as low as 40%.
 
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
