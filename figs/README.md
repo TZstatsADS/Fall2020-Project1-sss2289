@@ -1,4 +1,4 @@
-# ADS Project 1:  R Notebook on the Presidential Elections in the US
+# ADS Project 1:  Why Did President Barak Obama Win Again If His Approval Ratings Were Declining?
 
 ### Figs folder
 
