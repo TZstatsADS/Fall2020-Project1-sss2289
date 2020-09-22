@@ -2,7 +2,7 @@
 ## Fall 2020
 ## Project 1: Why Did President Barak Obama Win Again If His Approval Ratings Were Declining?
 
-![Source:https://www.270towin.com/maps/bR7P6.png](~/ADS/Fall2020-Project1-sss2289/figs/ImageProject1.png)
+<img src="figs/ImageProject1.png" width="500">
 
 ### [Project Description](doc/)
 This is the first and only *individual* (as opposed to *team*) this semester. 
