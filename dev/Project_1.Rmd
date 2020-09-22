@@ -6,9 +6,6 @@ output:
   pdf_document: default
 ---
 
-![Source:https://www.270towin.com/maps/bR7P6.png](C:/Users/swint/Documents/ADS/Fall2020-Project1-sss2289/figs/ImageProject1.png)
-
-
 # 1. Introduction
 
 ```{r load libraries, message=FALSE, warning=FALSE, include=FALSE}
@@ -40,7 +37,6 @@ anes_dat <- read_sav("anes_timeseries_2012.sav")
 ```
 
 
-
 ```{r echo=FALSE}
 par(mar=c(10, 4,1,4))
 #summary(anes_dat$prevote_presvtwho)
@@ -50,6 +46,7 @@ barplot(table(anes_dat$prevote_primvwho),names.arg=c("Refused to Answer","Do Not
  mtext("Candidates' Names", side=1, line =8)
 par(mar=c(5.1, 4.1, 4.1, 2.1))
 ```
+
 The graph above shows the vote counts of 2012 primary elections and it includes 'inapplicable' counts bicide the individual candidates counts.
 
 For now we will exclude the inapplicable (will discuss more about it later). This bar graph shows that a large number of individuals voted for Barack Obama over other candidates in the 2012 Primaries. From what I remember, 2012 Primaries were held in November to December range, during that time period Obama’s approval ratings were at their lowest. However, this graph seems to show that despite this people still preferred him to be the president over all others.
@@ -108,7 +105,7 @@ Whereas if you look at '7pt Scale Of What The Respondents Think The Republican P
 <font size="4"> Looking at the second big ticket subject of handle economic problems: </font>
 
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library("knitr")
 Economy <- (table(anes_dat$ptyperf_ptyecon))
 names(Economy) = c("Refused to answer","Don't Know","Obama","Romney","Both","Neither Candidate")
