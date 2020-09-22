@@ -100,6 +100,7 @@ barplot(table(anes_dat$inspre_rpc),names.arg=c("Refused to Answer","Do Not Know"
  mtext("Views", side=1, line =8)
 par(mar=c(5.1, 4.1, 4.1, 2.1))
 ```
+
 Whereas if you look at '7pt Scale Of What The Respondents Think The Republican Party Stands For' graph, most voters think the republican candidate stanads for private insurance plan. This causes him to loose the votes of those that are in favor of government insurance plan (as you can see in the first graph that is close to a thirs of the respondents).
 
 <font size="4"> Looking at the second big ticket subject of handle economic problems: </font>
