@@ -1,5 +1,5 @@
 ---
-title: "Why Did President Barak Obama Win Again If His Approval Ratings Were Declining?"
+title: "Why Did President Barack Obama Win Again If His Approval Ratings Were Declining?"
 output:
   html_document:
     df_print: paged
@@ -96,7 +96,7 @@ Looking at the '7pt Scale Of Voters Views Towards Medical Insurance' graph, over
 
 ```{r echo=FALSE}
 par(mar=c(11, 4,4,4))
-barplot(table(anes_dat$inspre_rpc),names.arg=c("Refused to Answer","Do Not Know","(1) Govt Insurance",2,3,"(4) Indifferent",5,6," (7) Private insurance"),las=2, main="7pt Scale Of What The Respondents Think The Republican Party Stands For", ylab ="count")
+barplot(table(anes_dat$inspre_rpc),names.arg=c("Refused to Answer","Do Not Know","(1) Govt Insurance",2,3,"(4) Indifferent",5,6," (7) Private insurance"),las=2, main="7pt Scale Of What The Republican Party Stands For", ylab ="count")
  mtext("Views", side=1, line =8)
 par(mar=c(5.1, 4.1, 4.1, 2.1))
 ```
@@ -135,4 +135,4 @@ As you can see from the analysis above, respondents were in favor of Obama for t
 
 # 6. Biases:
 Below mentioned biases should be taken into consideration when looking at the outcome of this study and the outcomes of the survey conducted by ANES.
-People were paid to take the surveys. So, they may not cared about answering truthfully. This was the first time ANES used the Internet to conduct its survey ie. the survey was administered via the internet for the first time. Hence, there could have been glitches that resulted in unintended answers. Also, the participants that filled out the online survey were selected from the 'GfK Knowledge Networks'. I am are not sure how DfK Knowledge Networks selects individuals. Furthermore, the survey was also administered by a person. So, a change in tone or body language of the administrator could have influenced the respondent to answer a certain way. Also there is a bias of being observed which can lead to the pressure of the respondent changing their answers. Thus, through out this analysis I have considered this data sample as depicting the population of United States. However, this data from `r ncol(anes_dat)` respondents may not depict the population because of all the biases I have listed above.
+People were paid to take the surveys. So, they may not cared about answering truthfully. This was the first time ANES used the Internet to conduct its survey ie. the survey was administered via the internet for the first time. Hence, there could have been glitches that resulted in unintended answers. Also, the participants that filled out the online survey were selected from the 'GfK Knowledge Networks'. I am are not sure how DfK Knowledge Networks selects individuals. Furthermore, the survey was also administered by a person. So, a change in tone or body language of the administrator could have influenced the respondent to answer a certain way. Also there is a bias of being observed which can lead to the pressure of the respondent changing their answers. Thus, through out this analysis I have considered this data sample as depicting the population of United States. However, this data from `r nrow(anes_dat)` respondents may not depict the population because of all the biases I have listed above.
